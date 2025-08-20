@@ -39,7 +39,7 @@ export default function AboutSection() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="group relative w-full h-[270px] bg-white rounded-xl border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-xl cursor-pointer">
                     <Image
-                        src={"/assets/Mockup.png"}
+                        src={"/assets/mockup.png"}
                         fill
                         alt="Whisperz"
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
