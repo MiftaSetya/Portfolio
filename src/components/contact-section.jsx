@@ -35,7 +35,7 @@ export default function ContactSection() {
             <Image src={"/linkedin.svg"} width={30} height={30} alt="LinkedIn" className='filter brightness-0 invert' />
           </div>
           <h1 className='py-3 font-semibold text-xl text-gray-800'>LinkedIn</h1>
-          <h2 className='text-gray-600 text-lg mb-2'>Mifta Setya</h2>
+          <h2 className='text-gray-600 text-lg mb-2'>Mifta Setya Pratama</h2>
           <Link href="https://linkedin.com/in/MiftaSetya">
             <button className='mt-3 px-6 py-2 bg-blue-600 text-white rounded-full text-sm font-medium hover:bg-blue-700 
                       transition-all'>
