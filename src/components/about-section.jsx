@@ -123,6 +123,24 @@ export default function AboutSection() {
                         </div>
                     </div>
                 </div>
+
+                <div className='w-full h-[240px] bg-white rounded-xl border border-gray-200 overflow-hidden 
+                transition-all duration-200 hover:shadow-lg'>
+                    <div className='relative w-full h-full'>
+                        <Image
+                            src={"/assets/speaker1.png"}
+                            fill
+                            alt="GDGoC PENS Speaker Certificate"
+                            className='object-cover'
+                            loading='lazy'
+                            sizes="(max-width: 768px) 100vw, 33vw"
+                        />
+                        <div className='absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3'>
+                            <h3 className='text-white font-semibold text-base'>GDGoC PENS Speaker</h3>
+                            <p className='text-white text-sm opacity-90'>2026 • Hands-on Flutter: Dynamic UI</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     )
