@@ -79,6 +79,22 @@ export default function AboutSection() {
                         <p className="text-gray-200 text-sm">Online Course Platform &bull; Flutter</p>
                     </div>
                 </div>
+
+                <div className="group relative w-full h-60 bg-white rounded-xl border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-xl cursor-pointer">
+                    <Image
+                        src={"/assets/agronoma.png"}
+                        fill
+                        alt="Agronoma"
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        loading="lazy"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                    <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="absolute bottom-0 left-0 right-0 p-3 translate-y-8 group-hover:translate-y-0 transition-transform duration-300">
+                        <h3 className="text-white font-bold text-base">Agronoma</h3>
+                        <p className="text-gray-200 text-sm">Planting Assistant App &bull; Flutter</p>
+                    </div>
+                </div>
             </div>
 
             {/* Certificate */}
