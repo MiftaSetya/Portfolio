@@ -3,14 +3,14 @@ import Image from 'next/image'
 export default function HomeSection() {
     return (
         <section id="home" className='flex flex-col md:flex-row px-6 md:px-12 lg:px-24 xl:px-48 mt-16 md:mt-24 scroll-mt-20 md:scroll-mt-40 justify-center items-center gap-8 md:gap-12'>
-            <div className='relative w-36 h-36 sm:w-44 sm:h-44 md:w-72 md:h-72 lg:w-96 lg:h-96 xl:w-145 xl:h-145 border-[10px] md:border-16 border-white rounded-full shadow-lg overflow-hidden'>
+            <div className='relative w-36 aspect-square sm:w-44 md:w-72 lg:w-96 xl:w-[460px] border-[10px] md:border-16 border-white rounded-full shadow-lg overflow-hidden'>
                 <Image
                     src="/assets/profile.jpg"
                     fill
                     className='object-cover'
                     alt="Profile"
                     loading="eager"
-                    sizes="(max-width: 768px) 144px, (max-width: 1024px) 384px, 580px"
+                    sizes="(max-width: 640px) 144px, (max-width: 768px) 176px, (max-width: 1024px) 288px, (max-width: 1280px) 384px, 460px"
                 />
             </div>
             <div className='w-fit h-full text-center md:text-left'>
