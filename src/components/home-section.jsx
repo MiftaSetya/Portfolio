@@ -9,6 +9,8 @@ export default function HomeSection() {
                     fill
                     className='object-cover'
                     alt="Profile"
+                    loading="eager"
+                    sizes="650px"
                 />
             </div>
             <div className='w-fit h-full'>

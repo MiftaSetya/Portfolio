@@ -10,18 +10,18 @@ export default function AboutSection() {
                 <div className='absolute w-8 h-[2px] rounded-full bg-blue-500 mt-1 z-10' />
             </div>
             <div className='flex gap-8 mb-10'>
-                <Image src={"/kotlin.svg"} width={50} height={50} />
-                <Image src={"/flutter.svg"} width={50} height={50} />
-                <Image src={"/firebase.svg"} width={60} height={50} />
-                <Image src={"/dart.svg"} width={50} height={50} />
-                <Image src={"/html.svg"} width={50} height={50} />
-                <Image src={"/css.svg"} width={50} height={50} />
-                <Image src={"/js.svg"} width={50} height={50} />
-                <Image src={"/golang.svg"} width={50} height={50} />
-                <Image src={"/nodejs.svg"} width={55} height={55} />
-                <Image src={"/nextjs.svg"} width={50} height={50} />
-                <Image src={"/react.svg"} width={50} height={50} />
-                <Image src={"/mysql.svg"} width={60} height={60} />
+                <Image src={"/kotlin.svg"} width={50} height={50} alt="Kotlin" />
+                <Image src={"/flutter.svg"} width={50} height={50} alt="Flutter" />
+                <Image src={"/firebase.svg"} width={50} height={50} alt="Firebase" />
+                <Image src={"/dart.svg"} width={50} height={50} alt="Dart" />
+                <Image src={"/html.svg"} width={50} height={50} alt="HTML" />
+                <Image src={"/css.svg"} width={50} height={50} alt="CSS" />
+                <Image src={"/js.svg"} width={50} height={50} alt="JavaScript" />
+                <Image src={"/golang.svg"} width={50} height={50} alt="Go" />
+                <Image src={"/nodejs.svg"} width={50} height={50} alt="Node.js" />
+                <Image src={"/nextjs.svg"} width={50} height={50} alt="Next.js" />
+                <Image src={"/react.svg"} width={50} height={50} alt="React" />
+                <Image src={"/mysql.svg"} width={50} height={50} alt="MySQL" />
             </div>
 
             {/* Project */}
@@ -81,7 +81,6 @@ export default function AboutSection() {
                 </div>
             </div>
 
-
             {/* Certificate */}
             <h1 className='font-semibold text-2xl'>Certificate</h1>
             <div className='relative mb-8'>
@@ -98,6 +97,7 @@ export default function AboutSection() {
                             alt="UBIG Certificate"
                             className='object-cover'
                             loading='lazy'
+                            sizes="(max-width: 768px) 100vw, 33vw"
                         />
                         <div className='absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4'>
                             <h3 className='text-white font-semibold text-lg'>Bootcamp LKS Batch #2</h3>
@@ -115,6 +115,7 @@ export default function AboutSection() {
                             alt="ITSSB Certificate"
                             className='object-cover'
                             loading='lazy'
+                            sizes="(max-width: 768px) 100vw, 33vw"
                         />
                         <div className='absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4'>
                             <h3 className='text-white font-semibold text-lg'>IT Software Solution For Bussiness</h3>
