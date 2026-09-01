@@ -31,12 +31,12 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className='sticky top-0 z-50 w-full px-8 py-4 shadow-sm bg-gray-100 text-black flex justify-between items-center'>
-      <div className='flex font-semibold text-[25px] gap-1.5'>
+    <div className='sticky top-0 z-50 w-full px-7 py-3 shadow-sm bg-gray-100 text-black flex justify-between items-center'>
+      <div className='flex font-semibold text-[22px] gap-1'>
         Mifta
         <span className='font-medium'>Setya</span>
       </div>
-      <div className='flex text-[17px] gap-10 text-gray-400'>
+      <div className='flex text-[15px] gap-8 text-gray-400'>
         <a
           href="#home"
           className={`hover:text-blue-500 transition-colors ${
