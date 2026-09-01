@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
 
 export default function AboutSection() {
     return (
@@ -18,15 +17,11 @@ export default function AboutSection() {
                 <Image src={"/html.svg"} width={50} height={50} />
                 <Image src={"/css.svg"} width={50} height={50} />
                 <Image src={"/js.svg"} width={50} height={50} />
-                <Image src={"/c.svg"} width={50} height={50} />
-                <Image src={"/csharp.svg"} width={50} height={50} />
                 <Image src={"/golang.svg"} width={50} height={50} />
                 <Image src={"/nodejs.svg"} width={55} height={55} />
                 <Image src={"/nextjs.svg"} width={50} height={50} />
                 <Image src={"/react.svg"} width={50} height={50} />
-                <Image src={"/tailwind.svg"} width={50} height={50} />
                 <Image src={"/mysql.svg"} width={60} height={60} />
-                <Image src={"/postman.svg"} width={50} height={50} />
             </div>
 
             {/* Project */}
@@ -131,4 +126,3 @@ export default function AboutSection() {
         </section>
     )
 }
-                

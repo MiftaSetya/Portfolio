@@ -10,7 +10,7 @@ export default function Home() {
       <div className="overflow-x-hidden">
         <HomeSection />
         <AboutSection />
-        <ContactSection/>
+        <ContactSection />
       </div>
     </div>
   );
